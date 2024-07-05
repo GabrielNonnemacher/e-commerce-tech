@@ -4,16 +4,17 @@ import './HeaderTop.component.css';
 
 export function HeaderTop() {
     function actionsUser() {
-        return IMAGES_ICONS_HEADER.map((item) => {
-            return <div className="action-user">
+        return IMAGES_ICONS_HEADER.map((item, index) => {
+            return <div className="action-user"
+                key={item.alt + index}>
                 <img src={`assets/images/${item.url}`} alt={item.alt} />
             </div>
         });
     }
 
     function linksSections() {
-        return LINK_SECTION_HEADER.map((item) => {
-            return <div className="link-section">{item}</div>
+        return LINK_SECTION_HEADER.map((item, index) => {
+            return <div className="link-section" key={item.section + index}>{item}</div>
         })
     }
 
