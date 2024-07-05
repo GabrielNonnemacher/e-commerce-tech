@@ -30,3 +30,8 @@
     height: 24px;
     background-color: var(--gray-300);
 }
+
+.image-setion-sub-nav {
+    max-height: 24px;
+    max-width: 24px;
+}
