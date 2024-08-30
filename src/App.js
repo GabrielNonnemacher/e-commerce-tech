@@ -1,10 +1,11 @@
 import './App.css';
-import { HeaderDesktop } from './ui/components'
+import { Footer, HeaderDesktop } from './ui/components';
 
 function App() {
   return (
     <div className="App">
       <HeaderDesktop />
+      <Footer />
     </div>
   );
 }

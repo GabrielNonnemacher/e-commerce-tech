@@ -1,5 +1,5 @@
 import { IMAGES_ICONS_HEADER, LINK_SECTION_HEADER } from '../../../../common/constants.helper';
-import InputSearchField from '../../Input/InputSearchField/InputSearchField.component';
+import { InputSearchField } from '../../Input/InputSearchField/InputSearchField.component';
 import './HeaderTop.component.css';
 
 export function HeaderTop() {
