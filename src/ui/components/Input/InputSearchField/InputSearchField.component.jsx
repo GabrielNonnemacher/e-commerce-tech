@@ -1,6 +1,6 @@
 import './InputSearchField.component.css';
 
-function InputSearchField() {
+export function InputSearchField() {
     return (
         <div className='input-search-field'
             key="input-search-field">
@@ -13,5 +13,3 @@ function InputSearchField() {
         </div>
     );
 }
-
-export default InputSearchField;

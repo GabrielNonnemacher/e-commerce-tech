@@ -43,3 +43,72 @@ export const SECTIONS_HEADER_SUV_NAV = [
         alt: "Phones Section",
     }
 ];
+
+export const INFOS_FOOTER = {
+    infos: {
+        image: {
+            url: "assets/images/logo-light.svg",
+            alt: "Logo light"
+        },
+        text: "We are a residential interior design firm located in Portland. Our boutique-studio offers more than"
+    },
+    socialMedias: [
+        {
+            name: "Facebook",
+            image: {
+                url: "assets/images/logo-facebook.svg",
+                alt: "Logo Facebook"
+            },
+            link: "https://www.facebook.com"
+        },
+        {
+            name: "X",
+            image: {
+                url: "assets/images/logo-x.png",
+                alt: "Logo X"
+            },
+            link: "https://www.x.com"
+        },
+        {
+            name: "Tik Tok",
+            image: {
+                url: "assets/images/logo-tiktok.svg",
+                alt: "Logo Tik Tok"
+            },
+            link: "https://www.tiktok.com"
+        },
+        {
+            name: "Instagram",
+            image: {
+                url: "assets/images/logo-instagram.svg",
+                alt: "Logo Instagram"
+            },
+            link: "https://www.instagram.com"
+        }
+    ]
+};
+
+export const SERVICES_FOOTER = [
+    {
+        title: "Services",
+        sections: [
+            "Bonus program",
+            "Gift cards",
+            "Credit and payment",
+            "Service contracts",
+            "Non-cash account",
+            "Payment"
+        ]
+    },
+    {
+        title: "Assistance to the buyer",
+        sections: [
+            "Find an order",
+            "Terms of delivery",
+            "Exchange and return of goods",
+            "Guarantee",
+            "Frequently asked questions",
+            "Terms of use of the site"
+        ]
+    }
+];
