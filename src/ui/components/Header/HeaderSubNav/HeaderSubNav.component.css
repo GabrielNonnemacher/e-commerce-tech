@@ -15,6 +15,10 @@
     justify-content: center;
 }
 
+.container-sections-sub-nav {
+    display: flex;
+}
+
 .type-section {
     width: 176px;
     display: flex;
