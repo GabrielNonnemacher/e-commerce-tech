@@ -6,6 +6,7 @@
   --black-300: #2E2E2E;
   --black-800: #080808;
   --bg-linear-100: linear-gradient(90deg, rgba(46,46,46,1) 31%, rgba(0,0,0,1) 100%);
+  --bg-linear-200: linear-gradient(90deg, #211C24 31%, #080808 100%);
 }
 
 * {
