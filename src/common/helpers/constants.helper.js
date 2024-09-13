@@ -15,31 +15,37 @@ export const SECTIONS_BROWSER = [
     {
         section: "Phones",
         url: "assets/images/phone-icon.svg",
+        urlDark: "assets/images/phone-icon-dark.svg",
         alt: "Phones Section",
     },
     {
         section: "Computer",
         url: "assets/images/computer-icon.svg",
+        urlDark: "assets/images/computer-icon-dark.svg",
         alt: "Computer Section",
     },
     {
         section: "Smart Watches",
         url: "assets/images/smart-watches-icon.svg",
+        urlDark: "assets/images/smart-watches-icon-dark.svg",
         alt: "Smart Watches Section",
     },
     {
         section: "Cameras",
         url: "assets/images/camera-icon.svg",
+        urlDark: "assets/images/camera-icon-dark.svg",
         alt: "Cameras Section",
     },
     {
         section: "Headphones",
         url: "assets/images/headphone-icon.svg",
+        urlDark: "assets/images/headphone-icon-dark.svg",
         alt: "Headphones Section",
     },
     {
         section: "Gaming",
-        url: "assets/images/smart-watches-icon.svg",
+        url: "assets/images/gaming-icon.svg",
+        urlDark: "assets/images/gaming-icon-dark.svg",
         alt: "Phones Section",
     }
 ];
