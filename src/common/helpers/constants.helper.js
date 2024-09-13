@@ -11,7 +11,7 @@ export const LINK_SECTION_HEADER = [
     "Blog"
 ];
 
-export const SECTIONS_HEADER_SUV_NAV = [
+export const SECTIONS_BROWSER = [
     {
         section: "Phones",
         url: "assets/images/phone-icon.svg",

@@ -1,9 +1,9 @@
-import { SECTIONS_HEADER_SUV_NAV } from '../../../../common/helpers/constants.helper';
+import { SECTIONS_BROWSER } from '../../../../common/helpers/constants.helper';
 import './HeaderSubNav.component.css';
 
 export function HeaderSubNav() {
     function sectionsTech() {
-        return SECTIONS_HEADER_SUV_NAV.map((item, index) => {
+        return SECTIONS_BROWSER.map((item, index) => {
             if (index === 0) {
                 return (
                     <div className="type-section"
