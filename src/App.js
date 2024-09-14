@@ -1,5 +1,5 @@
 import './App.css';
-import { Apresentation, Folder, FolderBrowser, Footer, HeaderDesktop } from './ui/components';
+import { Apresentation, Folder, FolderBrowser, Footer, HeaderDesktop, Product } from './ui/components';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <HeaderDesktop />
       <Apresentation />
       <FolderBrowser />
+      <Product />
       <Folder />
       <Footer />
     </div>

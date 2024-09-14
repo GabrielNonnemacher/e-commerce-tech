@@ -13,7 +13,7 @@ export function FolderBrowser() {
                 {
                     SECTIONS_BROWSER.map(section => {
                         return (
-                            <Card>
+                            <Card key={section.section + "folder-browser"}>
                                 <img className="icon-folder-browser-section"
                                     key={section.section + "folder-browser"}
                                     src={section.urlDark}
